@@ -68,4 +68,4 @@ This project is licensed under the [MIT License](LICENSE).
  ---
 
 ## 👤 Author
-Aru – ![GitHub Profile](https://github.com/AruChen)
+Aru – [GitHub Profile](https://github.com/AruChen)
