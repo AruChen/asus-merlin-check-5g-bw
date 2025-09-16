@@ -63,7 +63,7 @@ When bandwidth drops below 160MHz:
 ---
 
 ## 📄 License
-This project is licensed under the ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)  – feel free to use, modify, and share.
+This project is licensed under the [MIT License](LICENSE).
 
  ---
 
