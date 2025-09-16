@@ -18,7 +18,7 @@ If the channel bandwidth drops below **160MHz**, the script automatically restar
 ## 📦 Installation
 1. Download the script:
    ```bash
-   wget https://raw.githubusercontent.com/<your-username>/<your-repo>/main/check_5g_bw.sh -O check_5g_bw.sh
+   wget https://raw.githubusercontent.com/AruChen/asus-merlin-router-check-5g-bw/refs/heads/main/check_5g_bw.sh -O check_5g_bw.sh
    ```
 2. Make it executable:
    ```bash
