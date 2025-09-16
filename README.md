@@ -19,3 +19,20 @@ If the channel bandwidth drops below **160MHz**, the script automatically restar
 1. Download the script:
    ```bash
    wget https://raw.githubusercontent.com/<your-username>/<your-repo>/main/check_5g_bw.sh -O check_5g_bw.sh
+   ```
+2. Make it executable:
+   ```bash
+   chmod +x check_5g_bw.sh
+   ```
+---
+
+## 🚀 Usage
+Run the script manually:
+   ```bash
+   ./check_5g_bw.sh
+   ```
+Or add it to cron for periodic checks:
+   ```bash
+   */10 * * * * /jffs/scripts/check_5g_bw.sh >> /jffs/scripts/check_5g_bw.log 2>&1
+   ```
+(example: run every 10 minutes and log output)
