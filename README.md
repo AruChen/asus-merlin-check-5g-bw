@@ -33,10 +33,6 @@ Run the script manually:
    ```
 Or add it to `cron` for periodic checks:
    ```bash
-   */10 * * * * /jffs/scripts/check_5g_bw.sh >> /jffs/scripts/check_5g_bw.log 2>&1
-   ```
-(example: run every 10 minutes and log output)
-   ```bash
    */10 * * * * /jffs/scripts/check_5g_bw.sh | logger
    ```
 (Redirects the script’s output through logger to the system log (syslog).On ASUS Merlin, the messages are stored in /tmp/syslog.log and can also be viewed in the Web UI under System Log.)
